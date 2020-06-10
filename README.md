@@ -4,22 +4,29 @@ ___<img src="assets/Screenshot_2.png" alt="">___________________________________
 ____________________________________________________
 ### HTML
 ____________________________________________________
-1-) We used a little bit Bootstrap.
-2-) We added grid and flexbox.
-3-) Project has different user comments.
+
+<ul>
+<li>We added grid and flexbox.</li>
+<li>Project has different user comments.</li>
+</ul>
+
 ### &
 ### CSS
 ____________________________________________________
-4-) The page has almost the same background-color as Youtube.
-5-) Aside bar has video duration. We added relatively to right under image and positioned.
-6-) Aside bar uses 30% of page with flex. Other parts use 60% of the page. There is 10% space between 2 sides (left,right)
+ <ul>
+ <li>The page has almost the same background-color as Youtube.</li>
+ <li>Aside bar has video duration. We added relatively to right under image and positioned.</li>
+ <li>Aside bar uses 30% of page with flex. Other parts use 60% of the page. There is 10% space between 2 sides (left,right)</li>
+ </ul>
+ 
+ 
 
 ## Authors 
 ____________________________________________________
 #### Muhammed Cihad Kurel
-Github: [I'm an inline-style link](@mcihadkurel)
+Github: [@mcihadkurel](https://github.com/mcihadkurel)
 ____________________________________________________
 #### Nikolas Escobal
-Github: [I'm an inline-style link](@nikoescobal)
+Github: [@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
 ____________________________________________________
 
