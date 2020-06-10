@@ -1,46 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap");
 
-body{
- background-color: rgba(200, 200, 200, 0.1);
-}
-
-.video {
-  margin-left: initial;
-  padding-left: 100px;
-  padding-top: 30px;
-}
-
-.flex {
-  display: flex;
-  float:right;
-}
-.totalview{
-  float:left;
-}
-.flex-column {
-  flex-direction: column;
-}
-.user-comments{
-  display:grid;
-}
-.user-avatar{
-  grid-template-columns: 20%;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-html {
-  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(200, 200, 200, 0.1);
+  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+}
 
+/* .video { */
+/* margin-left: initial; */
+/* padding-left: 100px; */
+/* padding-top: 30px; */
+/* } */
+
+.icon-spacing {
+  padding: 30px 15px;
+}
+
+/* .totalview { */
+/* float: left; */
+/* } */
+
+.flex-column {
+  flex-direction: column;
+}
+.user-comments {
+  display: grid;
+}
+.user-avatar {
+  grid-template-columns: 20%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
 
 .grid-container {
   display: flex;
@@ -71,7 +68,8 @@ nav {
 }
 
 #search-bar {
-  width: 550px;
+  background-color: red;
+  width: 85%;
   padding: 5px 10px;
   border: 1px solid silver;
   border-radius: 3px 0px 0px 3px;
@@ -88,96 +86,130 @@ nav {
   margin-right: 40px;
 }
 
+.main-video {
+  margin-left: initial;
+  margin-left: 65px;
+  /* padding-top: 76px; */
+  width: 746px;
+}
+
 .flex {
   display: flex;
 }
 
-.upcoming{
-  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
-  font-size:16px;
-  color:#030303
+.flex-column {
+  flex-direction: column;
 }
-.input{
-  width: 550px;
-  position:relative;
-  left: 219px;
-} 
 
-.container{
-position:relative;
-top:85px;
-left:22px;
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-horizontal {
+  flex-direction: row;
+}
+
+.upcoming {
+  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+  font-size: 16px;
+  color: #030303;
+}
+.input {
+  width: 550px;
+  position: relative;
+  left: 219px;
+}
+
+.container {
+  position: relative;
+  top: 85px;
+  left: 22px;
 }
 .main-fc {
   width: 60%;
-} 
+}
 
-
- .other-videos {
+.other-videos {
   width: 30%;
-} 
- .autobutton{
-  float:right;
-  position:relative;
-  bottom:35px;
+}
+.autobutton {
+  float: right;
+  position: relative;
+  bottom: 35px;
 }
 
-#autobutton{
+#autobutton {
   position: relative;
-  bottom:15px;
-  left: 14px
+  bottom: 15px;
+  left: 14px;
 }
-.sidebar{
-  position:relative;
+.sidebar {
+  position: relative;
   right: 35px;
   top: 80px;
 }
 .image {
   float: left;
   height: 10px;
-  position:relative;
+  position: relative;
 }
 .aside-video {
   grid-template-columns: 180px 180px;
-    display: grid;
-    margin-bottom: 4px;
-} 
- .aside-description {
+  display: grid;
+  margin-bottom: 4px;
+}
+.aside-description {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:12px;
-} 
- .song-title {
+  font-size: 12px;
+}
+.song-title {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:14px;
-  color:#030303;
+  font-size: 14px;
+  color: #030303;
   display: inline-block;
 }
-.aside-description{
+.aside-description {
   position: relative;
-  bottom:8px;
+  bottom: 8px;
 }
-.artist-name{
+.artist-name {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:13px;
-  color:#606060
+  font-size: 13px;
+  color: #606060;
 }
 .aside-views {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:13px;
-  color:#606060
+  font-size: 13px;
+  color: #606060;
 }
-.video-duration{
+.video-duration {
   position: relative;
-  float:right;
+  float: right;
   bottom: 18px;
   right: 14px;
-  font-size:12px;
+  font-size: 12px;
   background-color: black;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
+.images {
+  border-radius: 50%;
+}
 
+.smaller-gray {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.flex-horizontal {
+  flex-direction: row;
+}
+
+#video-below {
+  justify-content: space-between;
+  align-items: center;
+}
