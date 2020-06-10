@@ -21,10 +21,6 @@ body {
   padding: 30px 15px;
 }
 
-/* .totalview { */
-/* float: left; */
-/* } */
-
 .flex-column {
   flex-direction: column;
 }
@@ -40,8 +36,9 @@ body {
 }
 
 .grid-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  /* grid-template-columns: 3fr 0.05fr; */
+  justify-content: end;
 }
 
 nav {
@@ -133,16 +130,10 @@ nav {
 .other-videos {
   width: 30%;
 }
-.autobutton {
-  float: right;
-  position: relative;
-  bottom: 35px;
-}
 
 #autobutton {
-  position: relative;
-  bottom: 15px;
-  left: 14px;
+  border: none;
+  background-color: transparent;
 }
 .sidebar {
   position: relative;
@@ -216,5 +207,29 @@ nav {
 }
 
 .video-section {
-  margin-left: -100px;
+  justify-self: start;
+}
+
+.subscribe-button {
+  float: right;
+  margin-top: -120px;
+  background-color: #cc0000;
+  font-size: smaller;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.align-center {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+#autoplay {
+  display: inline;
+}
+
+.inline {
+  display: inline;
 }

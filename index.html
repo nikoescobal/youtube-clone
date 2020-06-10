@@ -84,9 +84,9 @@
             <div class="page-profile">
               <div class="user-description">
                 <div class="page-name"></div>
-                <div class="flex space-between">
+                <div class="align-center">
                   <img
-                    class="images"
+                    class="images inline"
                     src="assets/user-profile.jpg"
                     alt="Page Profile"
                     width="40"
@@ -95,11 +95,9 @@
 
                   <div id="video-section" class="user-subscribers">
                     <p>SquattyPotty</p>
-                    <p>45,5K Subscribers</p>
+                    <p>45.5K Subscribers</p>
                   </div>
-                  <div class="subscribe-button">
-                    <button>SUBSCRIBE</button>
-                  </div>
+                  <button class="subscribe-button">SUBSCRIBE</button>
                 </div>
               </div>
               <p>
@@ -115,6 +113,7 @@
           <article class="video-comments">
             <section>
               <div class="comment-section">
+                <hr />
                 <p>7777 Comments</p>
               </div>
               <div class="sort-button">
@@ -422,11 +421,13 @@
         <aside class="sidebar">
           <div class="upcoming">
             <p id="upnext">Up next</p>
-            <div class="autobutton">
-              <p>Auto Play</p>
-              <button id="autobutton">
-                <i class="fa fa-play-circle" aria-hidden="true"></i>
-              </button>
+            <div class="grid-container align-center">
+              <div>
+                <p id="autoplay" class="smaller-gray">AUTOPLAY</p>
+                <button id="autobutton">
+                  <i class="fa fa-toggle-on fa-2x" aria-hidden="true"></i>
+                </button>
+              </div>
             </div>
           </div>
           <div class="aside-video">
