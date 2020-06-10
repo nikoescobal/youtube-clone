@@ -1,5 +1,5 @@
 # YOUTUBE CLONE
-___<img src="assets/youtubeproject.png" alt="">_____________________________________
+___<img src="assets/Youtubeproject.png" alt="">_____________________________________
 ## Buit with
 ____________________________________________________
 ### HTML
