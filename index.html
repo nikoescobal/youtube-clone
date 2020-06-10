@@ -1,15 +1,17 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-
-    <title>YouTube Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube Page</title>
   </head>
   <body>
     <nav class="grid-container">
@@ -36,24 +38,602 @@
         <i class="fa fa-envelope" aria-hidden="true"></i>
       </div>
     </nav>
-
-          </div>
-          <div id="video-below" class="flex flex-horizontal">
-            <div class="video-views">
-              <p class="smaller-gray">38,063,145 views • Oct 6 2015</p>
+    
+    <div class="d-flex space-between">
+      <div class="main-fc d-flex flex-column">
+        <div class="container">
+          <div class="main-video">
+            <iframe
+              width="850"
+              height="480"
+              src="https://www.youtube.com/embed/YbYWhdLO43Q"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="embed-video-title">
+              <div class="video-title">
+                <p>
+                  This Unicorn Changed the Way I Poop -
+                  <a
+                    href="https://www.youtube.com/results?search_query=%23SquattyPotty"
+                    >#SquattyPotty</a
+                  >
+                </p>
+              </div>
+              <div class="flex">
+                <p>38,063,145 views•Oct 6 2015</p>
+                <div class="flex">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <p>115B</p>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>5,8B</p>
+                  <i class="fa fa-share"></i>
+                  <p>SHARE</p>
+                  <i class="fa fa-save" aria-hidden="true"></i>
+                  <p>SAVE</p>
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i class="fa fa-thumbs-up icon-spacing" aria-hidden="true">115B</i>
-              <i class="fa fa-thumbs-down icon-spacing" aria-hidden="true"
-                >5,8B</i
-              >
-              <i class="fa fa-share icon-spacing">SHARE</i>
-              <i class="fa fa-save icon-spacing" aria-hidden="true">SAVE</i>
-              <i class="fa fa-ellipsis-h icon-spacing" aria-hidden="true"></i>
+          </div>
+          
+          <article class="video-summary">
+            <div class="page-profile">
+              <div class="user-description">
+                <img
+                  src="assets/user-profile.jpg"
+                  alt="Page Profile"
+                  width="40"
+                  height="40"
+                />
+                <div class="page-name">
+                  <p>SquattyPotty</p>
+                  <p>
+                    Buy at http://squattypotty.com - Pooping will never be the
+                    same. This Unicorn shows the effects of improper toilet
+                    posture and how it can affect your health. The Squatty Potty
+                    toilet stool has been featured on Shark Tank and Dr OZ show
+                    and has thousands of happy customers.
+                  </p>
+                </div>
+                <div class="user-subscribers">
+                  <p>45,5K Subscribers</p>
+                </div>
+              </div>
+              <div class="subscribe-button">
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+          </article>
+          <article class="video-comments">
+            <section>
+              <div class="comment-section">
+                <p>7777 Comments</p>
+              </div>
+              <div class="sort-button">
+                <p>LİST</p>
+                <i class="fa fa-sort-amount-down"></i>
+              </div>
+            </section>
+            <div class="total-comments">
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-1.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Dwayne Knight
+                  </p>
+                  <p class="timestamp">
+                    4 years ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    I just want this actor to go on to do big things so we can
+                    always remember he did this.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 40 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user">
+                  <img
+                    src="assets/user-avatar-2.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Nybble
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    This, this is how advertising should be done...
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 13 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-3.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Justin Hubbard
+                  </p>
+                  <p class="timestamp">
+                    4 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    who still here 2020 watching this for some good laughs
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 20 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-4.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Simboiss
+                  </p>
+                  <p class="timestamp">
+                    8 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    This video is simultaneously : - Ridiculous - Funny -
+                    Scientifically accurate I am deeply satisfied.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 4 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-5.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Turtle-Dove Hall
+                  </p>
+                  <p class="timestamp">
+                    9 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    Thank you, I've been having a horrid time getting my child to
+                    have a bowel movement. 
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 6 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-6.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Kim Jong 005
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    If American commercials switched places with Japanese
+                    commercials
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 11 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-7.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Hana Kleine
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    The unicorns voice tho......
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View reply</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-8.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Max Poole
+                  </p>
+                  <p class="timestamp">
+                    8 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    I bought one and confirm this advert is 100% accurate apart
+                    from the colour and flavour.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 8 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-9.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    toma_no
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    Still one of the very few commercials that made me buy a
+                    product I didn't already know I needed. And definitely the
+                    only one that actually made a difference in my life!
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View reply</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+      <div class="other-videos d-flex flex-column">
+        <aside class="sidebar">
+          <div class="upcoming">
+            <p id="upnext">Up next</p>
+            <div class="autobutton">
+              <p>Auto Play</p>
+              <button id="autobutton">
+                <i class="fa fa-play-circle" aria-hidden="true"></i>
+              </button>
             </div>
           </div>
-          <hr />
-          <br />
-
+          <div class="aside-video">
+            <div class="image">
+              <img src="assets/video-image-12.jpg" width="168" height="94" />
+              <p class="video-duration">3:38</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Autumn Leaves<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">Yenne Lee plays 2004 Pepe Romero Jr.</p>
+              <p class="aside-views">3M Views • 6 Months Ago</p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-2.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">4:42</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Covet<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">parachute” (official video)</p>
+              <p class="aside-views">532K Views •3 Years Ago</p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-3.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">7:43</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Unravel<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">Tokyo Ghoul (Opening) | Band Cover</p>
+              <p class="aside-views">12M Views •4 Months Ago</p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-4.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">5:54</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Tokyo Ghoul<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">
+                Glassy Sky [Instrumental and Vocal Cover] | Ophie
+              </p>
+              <p class="aside-views">
+                150K Views •
+                3 Months Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-5.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">4:21</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Granite Hands<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">
+                Smoke Screens feat. Owane (Official Music Video)
+              </p>
+              <p class="aside-views">
+                23M Views •
+                3 Months Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-6.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">1:18</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                ‘True Grit’<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">Trailer HD</p>
+              <p class="aside-views">
+                747 Views •
+                2 Months Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-7.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">6:17</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Eğitilemedik (47.Bölüm)<i
+                  class="fa fa-check"
+                  aria-hidden="true"
+                ></i>
+              </p>
+              <p class="artist-name">Çok Güzel Hareketler 2</p>
+              <p class="aside-views">
+                330K Views •
+                5 Months Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-8.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">21:12</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                Kombi İstilası (45.Bölüm)<i
+                  class="fa fa-check"
+                  aria-hidden="true"
+                ></i>
+              </p>
+              <p class="artist-name">Çok Güzel Hareketler 2</p>
+              <p class="aside-views">
+                5M Views •
+                2 Years Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-9.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">8:15</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">7</p>
+              <p class="artist-name">
+                People You Won’t Believe Actually Exist<i
+                  class="fa fa-check"
+                  aria-hidden="true"
+                ></i>
+              </p>
+              <p class="aside-views">
+                432K Views •
+                7 months Ago
+              </p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-10.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">3:16</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                David Beckham<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">Let’s Go Potty!</p>
+              <p class="aside-views">15K Views •7 Days Ago</p>
+            </div>
+          </div>
+          <div class="aside-video">
+            <div class="image">
+              <img
+                src="assets/video-image-11.jpg"
+                alt=""
+                width="168"
+                height="94"
+              />
+              <p class="video-duration">9:42</p>
+            </div>
+            <div class="aside-description">
+              <p class="song-title">
+                BAD GENIUS<i class="fa fa-check" aria-hidden="true"></i>
+              </p>
+              <p class="artist-name">
+                Official International Trailer (2017) | GDH
+              </p>
+              <p class="aside-views">
+                366M Views •
+                5 Years Ago
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="footer"></div>
   </body>
 </html>

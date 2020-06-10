@@ -1,13 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap");
+
+body{
+ background-color: rgba(200, 200, 200, 0.1);
+}
+
+.video {
+  margin-left: initial;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.flex {
+  display: flex;
+  float:right;
+}
+.totalview{
+  float:left;
+}
+.flex-column {
+  flex-direction: column;
+}
+.user-comments{
+  display:grid;
+}
+.user-avatar{
+  grid-template-columns: 20%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+html {
+  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgba(200, 200, 200, 0.1);
-  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
-}
+
 
 .grid-container {
   display: flex;
@@ -58,3 +91,93 @@ nav {
 .flex {
   display: flex;
 }
+
+.upcoming{
+  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+  font-size:16px;
+  color:#030303
+}
+.input{
+  width: 550px;
+  position:relative;
+  left: 220px;
+} 
+
+.container{
+position:relative;
+top:85px;
+left:22px;
+}
+.main-fc {
+  width: 60%;
+} 
+
+
+ .other-videos {
+  width: 30%;
+} 
+ .autobutton{
+  float:right;
+  position:relative;
+  bottom:35px;
+}
+
+#autobutton{
+  position: relative;
+  bottom:15px;
+  left: 14px
+}
+.sidebar{
+  position:relative;
+  right: 35px;
+  top: 80px;
+}
+.image {
+  float: left;
+  height: 10px;
+  position:relative;
+}
+.aside-video {
+  grid-template-columns: 180px 180px;
+    display: grid;
+    margin-bottom: 4px;
+} 
+ .aside-description {
+  font-family: Roboto;
+  line-height: 1.2em;
+  font-size:12px;
+} 
+ .song-title {
+  font-family: Roboto;
+  line-height: 1.2em;
+  font-size:14px;
+  color:#030303;
+  display: inline-block;
+}
+.aside-description{
+  position: relative;
+  bottom:8px;
+}
+.artist-name{
+  font-family: Roboto;
+  line-height: 1.2em;
+  font-size:13px;
+  color:#606060
+}
+.aside-views {
+  font-family: Roboto;
+  line-height: 1.2em;
+  font-size:13px;
+  color:#606060
+}
+.video-duration{
+  position: relative;
+  float:right;
+  bottom: 18px;
+  right: 14px;
+  font-size:12px;
+  background-color: black;
+  color:whitesmoke;
+}
+
+
