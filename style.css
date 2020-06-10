@@ -49,7 +49,7 @@ nav {
   position: fixed;
   top: 0%;
   width: 100%;
-  height: 56px;
+  height: 50px;
   background-color: #ffffff;
   justify-content: space-between;
 }
@@ -68,8 +68,8 @@ nav {
 }
 
 #search-bar {
-  background-color: red;
-  width: 85%;
+  background-color:white;
+  width: 550px;
   padding: 5px 10px;
   border: 1px solid silver;
   border-radius: 3px 0px 0px 3px;
@@ -88,9 +88,7 @@ nav {
 
 .main-video {
   margin-left: initial;
-  margin-left: 65px;
-  /* padding-top: 76px; */
-  width: 746px;
+
 }
 
 .flex {
