@@ -1,5 +1,6 @@
 # YOUTUBE CLONE
-___<img src="assets/Youtubeproject.png" alt="">_____________________________________
+___<img width="1439" alt="Youtubeproject" src="https://user-images.githubusercontent.com/62937819/84308799-bb58fb80-ab91-11ea-98e2-88c28691ea5d.png">
+ alt="">_____________________________________
 ## Buit with
 ____________________________________________________
 ### HTML
