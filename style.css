@@ -52,6 +52,7 @@ nav {
   height: 50px;
   background-color: #ffffff;
   justify-content: space-between;
+  z-index: 1;
 }
 
 #left-navbar {
@@ -62,14 +63,15 @@ nav {
 }
 
 #mid-navbar {
-  position: relative;
   align-self: center;
   margin-right: 20px;
+  width: 50%;
+  justify-content: center;
 }
 
 #search-bar {
-  background-color:white;
-  width: 550px;
+  background-color: white;
+  width: 85%;
   padding: 5px 10px;
   border: 1px solid silver;
   border-radius: 3px 0px 0px 3px;
@@ -77,7 +79,9 @@ nav {
 }
 
 #search-button {
+  border: 1px solid gray;
   padding: 10px 30px;
+  border-radius: 0px 3px 3px 0px;
 }
 
 #right-navbar {
@@ -88,7 +92,6 @@ nav {
 
 .main-video {
   margin-left: initial;
-
 }
 
 .flex {
@@ -210,4 +213,8 @@ nav {
 #video-below {
   justify-content: space-between;
   align-items: center;
+}
+
+.video-section {
+  margin-left: -100px;
 }

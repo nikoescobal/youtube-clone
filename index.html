@@ -14,7 +14,7 @@
     <title>Youtube Page</title>
   </head>
   <body>
-    <nav class="grid-container">
+    <nav class="flex">
       <div id="left-navbar" class="flex">
         <i class="fa fa-bars" aria-hidden="true"></i>
         <img
@@ -52,7 +52,6 @@
               allowfullscreen
             ></iframe>
             <div class="video-title">
-              <br />
               <p>
                 This Unicorn Changed the Way I Poop -
                 <a
@@ -84,30 +83,32 @@
           <article class="video-summary">
             <div class="page-profile">
               <div class="user-description">
-                <img
-                  class="images"
-                  src="assets/user-profile.jpg"
-                  alt="Page Profile"
-                  width="40"
-                  height="40"
-                />
-                <div class="page-name">
-                  <p>SquattyPotty</p>
-                  <p>
-                    Buy at http://squattypotty.com - Pooping will never be the
-                    same. This Unicorn shows the effects of improper toilet
-                    posture and how it can affect your health. The Squatty Potty
-                    toilet stool has been featured on Shark Tank and Dr OZ show
-                    and has thousands of happy customers.
-                  </p>
-                </div>
-                <div class="user-subscribers">
-                  <p>45,5K Subscribers</p>
+                <div class="page-name"></div>
+                <div class="flex space-between">
+                  <img
+                    class="images"
+                    src="assets/user-profile.jpg"
+                    alt="Page Profile"
+                    width="40"
+                    height="40"
+                  />
+
+                  <div id="video-section" class="user-subscribers">
+                    <p>SquattyPotty</p>
+                    <p>45,5K Subscribers</p>
+                  </div>
+                  <div class="subscribe-button">
+                    <button>SUBSCRIBE</button>
+                  </div>
                 </div>
               </div>
-              <div class="subscribe-button">
-                <button>SUBSCRIBE</button>
-              </div>
+              <p>
+                Buy at http://squattypotty.com - Pooping will never be the same.
+                This Unicorn shows the effects of improper toilet posture and
+                how it can affect your health. The Squatty Potty toilet stool
+                has been featured on Shark Tank and Dr OZ show and has thousands
+                of happy customers.
+              </p>
             </div>
           </article>
 
