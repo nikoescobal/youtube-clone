@@ -11,12 +11,6 @@ body {
   font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
 }
 
-/* .video { */
-/* margin-left: initial; */
-/* padding-left: 100px; */
-/* padding-top: 30px; */
-/* } */
-
 .icon-spacing {
   padding: 30px 15px;
 }
@@ -24,9 +18,7 @@ body {
 .flex-column {
   flex-direction: column;
 }
-.user-comments {
-  display: grid;
-}
+
 .user-avatar {
   grid-template-columns: 20%;
 }
@@ -37,7 +29,6 @@ body {
 
 .grid-container {
   display: grid;
-  /* grid-template-columns: 3fr 0.05fr; */
   justify-content: end;
 }
 
@@ -150,14 +141,8 @@ nav {
   display: grid;
   margin-bottom: 4px;
 }
-.aside-description {
-  font-family: Roboto;
-  line-height: 1.2em;
-  font-size: 12px;
-}
+
 .song-title {
-  font-family: Roboto;
-  line-height: 1.2em;
   font-size: 14px;
   color: #030303;
   display: inline-block;
@@ -165,16 +150,13 @@ nav {
 .aside-description {
   position: relative;
   bottom: 8px;
+  font-size: 12px;
 }
 .artist-name {
-  font-family: Roboto;
-  line-height: 1.2em;
   font-size: 13px;
   color: #606060;
 }
 .aside-views {
-  font-family: Roboto;
-  line-height: 1.2em;
   font-size: 13px;
   color: #606060;
 }
@@ -226,10 +208,15 @@ nav {
   align-self: center;
 }
 
-#autoplay {
+.inline {
   display: inline;
 }
 
-.inline {
-  display: inline;
+.upnext {
+  justify-content: center;
+}
+
+.sidebar-attributes {
+  font-family: Roboto;
+  line-height: 1.2em;
 }
