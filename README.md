@@ -1,8 +1,8 @@
 # YOUTUBE CLONE
-___<img width="1439" alt="Youtubeproject" src="https://user-images.githubusercontent.com/62937819/84308799-bb58fb80-ab91-11ea-98e2-88c28691ea5d.png">
+___<img width="1436" alt="Youtubeproject" src="https://user-images.githubusercontent.com/62937819/84387437-91511900-ac25-11ea-956e-83f3a838f586.png">
 
 ## Live Server
-[Live](https://github.com/mcihadkurel)
+[Live](https://rawcdn.githack.com/nikoescobal/Youtubeclone-muhammed-niko/1ec1d4a82ec7dba819f83c87510ed9cff0865eba/index.html)
 ## Buit with
 ____________________________________________________
 ### HTML
@@ -10,6 +10,7 @@ ____________________________________________________
 
 <ul>
 <li>We added grid and flexbox.</li>
+<li>We converted icons from font awesome to embedded images.</li>
 <li>Project has different user comments.</li>
 </ul>
 
@@ -27,13 +28,17 @@ ____________________________________________________
 ## Authors 
 ____________________________________________________
 #### Muhammed Cihad Kurel
-Github: [@mcihadkurel](https://github.com/mcihadkurel)
-Twitter: [@mcihadkurel](https://twitter.com/mece_ka)
-LinkedIn: [@mcihadkurel](linkedin.com/in/muhammed-cihad-8187581a8/)
+<ul>
+<li>Github: [@mcihadkurel](https://github.com/mcihadkurel)</li>
+<li>Twitter: [@mcihadkurel](https://twitter.com/mece_ka)</li>
+<li>LinkedIn: [@mcihadkurel](linkedin.com/in/muhammed-cihad-8187581a8/)</li>
+</ul>
 ____________________________________________________
 #### Nikolas Escobal
-Github: [@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
-Twitter: [@mcihadkurel](https://twitter.com/nikoescobal)
-LinkedIn: [@mcihadkurel](https://www.linkedin.com/in/nikolas-joseph-escobal/)
+<ul>
+<li>Github:[@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)</li>
+<li>Twitter:[@nikoescobal](https://twitter.com/nikoescobal)</li>
+<li>LinkedIn:[@nikoescobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)</li>
+</ul>
 ____________________________________________________
 
