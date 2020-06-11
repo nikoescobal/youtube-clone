@@ -11,11 +11,7 @@ body {
   font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
 }
 
-/* .video { */
-/* margin-left: initial; */
-/* padding-left: 100px; */
-/* padding-top: 30px; */
-/* } */
+
 
 .icon-spacing {
   padding: 30px 15px;
@@ -37,7 +33,7 @@ body {
 
 .grid-container {
   display: grid;
-  /* grid-template-columns: 3fr 0.05fr; */
+  
   justify-content: end;
 }
 
