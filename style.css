@@ -28,8 +28,8 @@ body {
 }
 
 .grid-container {
-  display: grid;
-  justify-content: end;
+  position: relative;
+  left: 250px;
 }
 
 nav {
@@ -73,9 +73,9 @@ nav {
 }
 
 #right-navbar {
-  width: 150px;
+  width: 120px;
   justify-content: space-between;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .main-video {

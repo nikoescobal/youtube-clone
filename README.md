@@ -1,6 +1,8 @@
 # YOUTUBE CLONE
 ___<img width="1439" alt="Youtubeproject" src="https://user-images.githubusercontent.com/62937819/84308799-bb58fb80-ab91-11ea-98e2-88c28691ea5d.png">
 
+## Live Server
+[Live](https://github.com/mcihadkurel)
 ## Buit with
 ____________________________________________________
 ### HTML
@@ -26,8 +28,12 @@ ____________________________________________________
 ____________________________________________________
 #### Muhammed Cihad Kurel
 Github: [@mcihadkurel](https://github.com/mcihadkurel)
+Twitter: [@mcihadkurel](https://twitter.com/mece_ka)
+LinkedIn: [@mcihadkurel](linkedin.com/in/muhammed-cihad-8187581a8/)
 ____________________________________________________
 #### Nikolas Escobal
 Github: [@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
+Twitter: [@mcihadkurel](https://twitter.com/nikoescobal)
+LinkedIn: [@mcihadkurel](https://www.linkedin.com/in/nikolas-joseph-escobal/)
 ____________________________________________________
 
