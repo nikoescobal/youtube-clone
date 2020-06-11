@@ -73,6 +73,7 @@ nav {
 }
 
 #right-navbar {
+  align-items: center;
   width: 120px;
   justify-content: space-between;
   margin-right: 50px;
