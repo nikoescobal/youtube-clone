@@ -30,8 +30,8 @@ ____________________________________________________
 #### Muhammed Cihad Kurel
 <ul>
 <li>Github: [@mcihadkurel](https://github.com/mcihadkurel)</li>
-<li>Twitter: [@mcihadkurel](https://twitter.com/mece_ka)</li>
-<li>LinkedIn: [@mcihadkurel](linkedin.com/in/muhammed-cihad-8187581a8/)</li>
+<li>Twitter: [@mece_ka](https://twitter.com/mece_ka)</li>
+<li>LinkedIn: [@muhammed-cihad-8187581a8](linkedin.com/in/muhammed-cihad-8187581a8/)</li>
 </ul>
 ____________________________________________________
 
@@ -39,7 +39,7 @@ ____________________________________________________
 <ul>
 <li>Github:[@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)</li>
 <li>Twitter:[@nikoescobal](https://twitter.com/nikoescobal)</li>
-<li>LinkedIn:[@nikoescobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)</li>
+<li>LinkedIn:[@nikolas-joseph-escobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)</li>
 </ul>
 ____________________________________________________
 
