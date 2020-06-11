@@ -136,6 +136,8 @@ nav {
   float: left;
   height: 10px;
   position: relative;
+  width:168;
+  height:94;
 }
 .aside-video {
   grid-template-columns: 180px 180px;
@@ -173,6 +175,8 @@ nav {
 
 .images {
   border-radius: 50%;
+  width:40px;
+  height:40px;
 }
 
 .smaller-gray {
