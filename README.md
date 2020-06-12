@@ -2,7 +2,7 @@
 ___<img width="1440" alt="Screen Shot 2020-06-12 at 8 47 14 PM" src="https://user-images.githubusercontent.com/62937819/84504960-71862780-acef-11ea-9c57-63d755eec333.png">
 
 ## Live Server
-[Live](https://rawcdn.githack.com/nikoescobal/Youtubeclone-muhammed-niko/1ec1d4a82ec7dba819f83c87510ed9cff0865eba/index.html)
+[Live](https://rawcdn.githack.com/nikoescobal/Youtubeclone-muhammed-niko/f7bed67f59b97be3a167ff0248206117c700bb10/index.html)
 ## Built with
 ____________________________________________________
 ### HTML
