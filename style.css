@@ -8,11 +8,11 @@
 
 body {
   background-color: rgba(200, 200, 200, 0.1);
-  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+  font-family: "Roboto", Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
 }
 
 .icon-spacing {
-  padding: 30px 15px;
+  padding: 0px 10px;
 }
 
 .flex-column {
@@ -20,7 +20,6 @@ body {
 }
 
 .user-avatar {
-  grid-template-columns: 20%;
 }
 
 .space-between {
@@ -60,7 +59,7 @@ nav {
 #search-bar {
   background-color: white;
   width: 85%;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border: 1px solid silver;
   border-radius: 3px 0px 0px 3px;
   font-size: medium;
@@ -68,7 +67,7 @@ nav {
 
 #search-button {
   border: 1px solid gray;
-  padding: 10px 30px;
+  padding: 0px 30px;
   border-radius: 0px 3px 3px 0px;
 }
 
@@ -117,6 +116,7 @@ nav {
 }
 .main-fc {
   width: 60%;
+  margin-left: 30px;
 }
 
 .other-videos {
@@ -136,8 +136,8 @@ nav {
   float: left;
   height: 10px;
   position: relative;
-  width:168;
-  height:94;
+  width: 168;
+  height: 94;
 }
 .aside-video {
   grid-template-columns: 180px 180px;
@@ -173,10 +173,15 @@ nav {
   color: whitesmoke;
 }
 
+.video-title {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
 .images {
   border-radius: 50%;
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
 }
 
 .smaller-gray {
@@ -199,7 +204,7 @@ nav {
 
 .subscribe-button {
   float: right;
-  margin-top: -120px;
+  margin-top: -60px;
   background-color: #cc0000;
   font-size: smaller;
   border: none;
@@ -224,4 +229,59 @@ nav {
 .sidebar-attributes {
   font-family: Roboto;
   line-height: 1.2em;
+}
+
+.page-profile p {
+  font-size: 14px;
+}
+
+#Squatty-potty {
+  margin-bottom: -5px;
+  padding-bottom: 5px;
+  margin-top: -20px;
+}
+
+#avatar {
+  margin-right: 16px;
+  margin-top: -40px;
+  width: 50px;
+  height: 50px;
+}
+
+.user-name-bolded {
+  margin: 0px 10px;
+  font-size: small;
+}
+
+.comment-description {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-size: smaller;
+}
+
+.smallest-gray {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.reply {
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.replies {
+  margin-top: 10px;
+}
+
+.gray {
+  color: #636363;
+}
+
+.sort-button {
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+}
+
+.sort-by {
+  margin-left: 10px;
 }
