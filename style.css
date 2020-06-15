@@ -126,6 +126,7 @@ nav {
 }
 .sidebar {
   position: relative;
+  right: 65px;
   top: 80px;
 }
 .image {
@@ -281,7 +282,7 @@ nav {
 .sort-by {
   margin-left: 10px;
 }
-button{
-  border:none;
-  background-color: rgba(200, 200, 200, 0.1);
+button {
+  border: none;
+  background-color: transparent;
 }
