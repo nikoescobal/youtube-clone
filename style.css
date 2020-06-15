@@ -19,9 +19,6 @@ body {
   flex-direction: column;
 }
 
-.user-avatar {
-}
-
 .space-between {
   justify-content: space-between;
 }
@@ -129,15 +126,14 @@ nav {
 }
 .sidebar {
   position: relative;
-  right: 35px;
   top: 80px;
 }
 .image {
   float: left;
   height: 10px;
   position: relative;
-  width: 168;
-  height: 94;
+  width: 168px;
+  height: 94px;
 }
 .aside-video {
   grid-template-columns: 180px 180px;
@@ -284,4 +280,8 @@ nav {
 
 .sort-by {
   margin-left: 10px;
+}
+button{
+  border:none;
+  background-color: rgba(200, 200, 200, 0.1);
 }
