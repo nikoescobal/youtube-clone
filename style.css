@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&family=Roboto&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   margin: 0;
@@ -8,8 +8,7 @@
 
 body {
   background-color: rgba(200, 200, 200, 0.1);
-  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
-    monospace;
+  font-family: "Roboto", sans-serif;
 }
 
 .icon-spacing {
@@ -85,8 +84,7 @@ nav {
 }
 
 .upcoming {
-  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
-    monospace;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #030303;
 }
@@ -217,8 +215,7 @@ nav {
 }
 
 .sidebar-attributes {
-  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
-    monospace;
+  font-family: "Roboto", sans-serif;
   line-height: 1.2em;
 }
 
