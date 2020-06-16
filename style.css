@@ -8,8 +8,8 @@
 
 body {
   background-color: rgba(200, 200, 200, 0.1);
-  font-family: "Roboto", sans-serif, "Open Sans", sans-serif, "Noto Sans",
-    sans-serif, "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
+    monospace;
 }
 
 .icon-spacing {
@@ -84,12 +84,9 @@ nav {
   display: flex;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
 .upcoming {
-  font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
+    monospace;
   font-size: 16px;
   color: #030303;
 }
@@ -220,7 +217,8 @@ nav {
 }
 
 .sidebar-attributes {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif, "Open Sans", "Noto Sans", "Roboto Mono",
+    monospace;
   line-height: 1.2em;
 }
 
