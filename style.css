@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&family=Roboto&family=Roboto+Mono&display=swap");
 
 * {
   margin: 0;
@@ -8,11 +8,12 @@
 
 body {
   background-color: rgba(200, 200, 200, 0.1);
-  font-family: "Roboto", Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
+  font-family: "Roboto", sans-serif, "Open Sans", sans-serif, "Noto Sans",
+    sans-serif, "Roboto Mono", monospace;
 }
 
 .icon-spacing {
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .flex-column {
@@ -34,7 +35,7 @@ nav {
   top: 0%;
   width: 100%;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #fff;
   justify-content: space-between;
   z-index: 1;
 }
@@ -58,14 +59,14 @@ nav {
   width: 85%;
   padding: 3px 10px;
   border: 1px solid silver;
-  border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0 0 3px;
   font-size: medium;
 }
 
 #search-button {
   border: 1px solid gray;
-  padding: 0px 30px;
-  border-radius: 0px 3px 3px 0px;
+  padding: 0 30px;
+  border-radius: 0 3px 3px 0;
 }
 
 #right-navbar {
@@ -83,16 +84,8 @@ nav {
   display: flex;
 }
 
-.flex-column {
-  flex-direction: column;
-}
-
 .space-between {
   justify-content: space-between;
-}
-
-.flex-horizontal {
-  flex-direction: row;
 }
 
 .upcoming {
@@ -100,6 +93,7 @@ nav {
   font-size: 16px;
   color: #030303;
 }
+
 .input {
   width: 550px;
   position: relative;
@@ -111,6 +105,7 @@ nav {
   top: 85px;
   left: 22px;
 }
+
 .main-fc {
   width: 60%;
   margin-left: 30px;
@@ -124,17 +119,19 @@ nav {
   border: none;
   background-color: transparent;
 }
+
 .sidebar {
   position: relative;
   top: 80px;
 }
+
 .image {
   float: left;
   height: 10px;
   position: relative;
   width: 168px;
-  height: 94px;
 }
+
 .aside-video {
   grid-template-columns: 180px 180px;
   display: grid;
@@ -146,19 +143,23 @@ nav {
   color: #030303;
   display: inline-block;
 }
+
 .aside-description {
   position: relative;
   bottom: 8px;
   font-size: 12px;
 }
+
 .artist-name {
   font-size: 13px;
   color: #606060;
 }
+
 .aside-views {
   font-size: 13px;
   color: #606060;
 }
+
 .video-duration {
   position: relative;
   float: right;
@@ -185,10 +186,6 @@ nav {
   color: gray;
 }
 
-.flex-horizontal {
-  flex-direction: row;
-}
-
 #video-below {
   justify-content: space-between;
   align-items: center;
@@ -201,7 +198,7 @@ nav {
 .subscribe-button {
   float: right;
   margin-top: -60px;
-  background-color: #cc0000;
+  background-color: #c00;
   font-size: smaller;
   border: none;
   color: white;
@@ -245,7 +242,7 @@ nav {
 }
 
 .user-name-bolded {
-  margin: 0px 10px;
+  margin: 0 10px;
   font-size: small;
 }
 
@@ -281,6 +278,7 @@ nav {
 .sort-by {
   margin-left: 10px;
 }
+
 button {
   border: none;
   background-color: transparent;
