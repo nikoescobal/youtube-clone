@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(200, 200, 200, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+.icon-spacing {
+  padding: 0 10px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.grid-container {
+  position: relative;
+  left: 250px;
+}
+
+nav {
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#left-navbar {
+  justify-content: space-evenly;
+  width: 12%;
+  align-items: center;
+  margin-left: 15px;
+}
+
+#mid-navbar {
+  align-self: center;
+  margin-right: 20px;
+  width: 50%;
+  justify-content: center;
+}
+
+#search-bar {
+  background-color: white;
+  width: 85%;
+  padding: 3px 10px;
+  border: 1px solid silver;
+  border-radius: 3px 0 0 3px;
+  font-size: medium;
+}
+
+#search-button {
+  border: 1px solid gray;
+  padding: 0 30px;
+  border-radius: 0 3px 3px 0;
+}
+
+#right-navbar {
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.main-video {
+  margin-left: initial;
+}
+
+.flex {
+  display: flex;
+}
+
+.upcoming {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #030303;
+}
+
+.input {
+  width: 550px;
+  position: relative;
+  left: 219px;
+}
+
+.container {
+  position: relative;
+  top: 85px;
+  left: 22px;
+}
+
+.main-fc {
+  width: 60%;
+  margin-left: 30px;
+}
+
+.other-videos {
+  width: 30%;
+}
+
+#autobutton {
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar {
+  position: relative;
+  top: 80px;
+}
+
+.image {
+  float: left;
+  height: 10px;
+  position: relative;
+  width: 168px;
+}
+
+.aside-video {
+  grid-template-columns: 180px 180px;
+  display: grid;
+  margin-bottom: 4px;
+}
+
+.song-title {
+  font-size: 14px;
+  color: #030303;
+  display: inline-block;
+}
+
+.aside-description {
+  position: relative;
+  bottom: 8px;
+  font-size: 12px;
+}
+
+.artist-name {
+  font-size: 13px;
+  color: #606060;
+}
+
+.aside-views {
+  font-size: 13px;
+  color: #606060;
+}
+
+.video-duration {
+  position: relative;
+  float: right;
+  bottom: 18px;
+  right: 14px;
+  font-size: 12px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.video-title {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.images {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.smaller-gray {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+#video-below {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-section {
+  justify-self: start;
+}
+
+.subscribe-button {
+  float: right;
+  margin-top: -60px;
+  background-color: #c00;
+  font-size: smaller;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.align-center {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.upnext {
+  justify-content: center;
+}
+
+.sidebar-attributes {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2em;
+}
+
+.page-profile p {
+  font-size: 14px;
+}
+
+#Squatty-potty {
+  margin-bottom: -5px;
+  padding-bottom: 5px;
+  margin-top: -20px;
+}
+
+#avatar {
+  margin-right: 16px;
+  margin-top: -40px;
+  width: 50px;
+  height: 50px;
+}
+
+.user-name-bolded {
+  margin: 0 10px;
+  font-size: small;
+}
+
+.comment-description {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-size: smaller;
+}
+
+.smallest-gray {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.reply {
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.replies {
+  margin-top: 10px;
+}
+
+.gray {
+  color: #636363;
+}
+
+.sort-button {
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+}
+
+.sort-by {
+  margin-left: 10px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

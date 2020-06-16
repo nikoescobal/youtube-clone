@@ -1,0 +1,9 @@
+linters:
+  stylelint:
+    # indicate where is the config file for stylelint
+    config: 'stylelint.config.js'
+# students using a reset css is very common, and forcing them to have a css folder
+# is a good practice
+files:
+  ignore:
+    - 'css/reset.css'
